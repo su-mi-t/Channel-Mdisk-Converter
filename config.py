@@ -14,7 +14,7 @@ API_HASH = os.environ.get("API_HASH", "e19f8efefae22654d25460990814aeec")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "5886140573:AAG57hjHVx_z9AJ2o-hKcASrvzjZsvCq_l4")
 DROPLINK_API = os.environ.get("DROPLINK_API")
 MDISK_API = os.environ.get("MDISK_API", "vWQzPKz0noK2p4x89ewR")
-ADMINS = list(int(i.strip()) for i in os.environ.get("ADMINS").split("875616746")) if os.environ.get("ADMINS") else []
+ADMINS = list(int(i.strip()) for i in os.environ.get("ADMINS").split(",")) if os.environ.get("ADMINS") else []
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "MdiskConvertorBotpro")
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Movies:movies@cluster0.ttvkebv.mongodb.net/?retryWrites=true&w=majority")
 WEBSITE = os.environ.get('WEBSITE')
