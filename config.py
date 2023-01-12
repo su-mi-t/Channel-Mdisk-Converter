@@ -9,14 +9,14 @@ def is_enabled(value, default):
         return default
 
 # Mandatory variables for the bot to start
-API_ID = int(os.environ.get("API_ID", "12124605"))
-API_HASH = os.environ.get("API_HASH", "5cf3577d85fd02286535ec2296934287")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "5574279873:AAHb22nEOdC2dbwY_9GpU838frtUAvyFoQI")
+API_ID = int(os.environ.get("API_ID", "23429472"))
+API_HASH = os.environ.get("API_HASH", "e19f8efefae22654d25460990814aeec)
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5886140573:AAG57hjHVx_z9AJ2o-hKcASrvzjZsvCq_l4")
 DROPLINK_API = os.environ.get("DROPLINK_API")
-MDISK_API = os.environ.get("MDISK_API", "Qu7jX9V0Sn3q1JHdxjPp")
+MDISK_API = os.environ.get("MDISK_API", "vWQzPKz0noK2p4x89ewR)
 ADMINS = list(int(i.strip()) for i in os.environ.get("ADMINS").split(",")) if os.environ.get("ADMINS") else []
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "MdiskConvertorBotpro")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://postbot:postbot@cluster0.ouwne8q.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Movies:<password>@cluster0.ttvkebv.mongodb.net/?retryWrites=true&w=majority")
 WEBSITE = os.environ.get('WEBSITE')
 
 #  Optionnal variables
